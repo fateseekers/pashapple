@@ -1,0 +1,86 @@
+.page{
+    &__header{
+        background-color: rgba(0,0,0,.9);
+        .header__nav{
+            background-color: rgba(0,0,0,.9);
+        }
+    }
+    &__footer{
+        background-color: rgba(0,0,0,.9);
+    }
+}
+
+.dropdown__button{
+    background: none;
+    border: none;
+    color:rgba(255,255,255,.5);
+    transition: .2s;
+}
+
+.dropdown__button:hover{
+    color:rgba(255,255,255,1);
+}
+
+.dropdown__button:focus{
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -85px;
+    min-width: 14rem;
+    text-align: left;
+    padding: 10px 20px;
+    &__status{
+        font-size: 16px;
+        color:rgb(194, 194, 194);    
+        text-align: center;
+    }   
+    &__line{
+        width: 100%;
+        margin: 10px 0;
+        color: rgb(194, 194, 194);
+    }
+    &__link{
+        text-decoration: none;
+        color: rgb(17, 158, 240);
+        &--icon{
+            margin-right: 15px;
+        }
+    }
+    &__link:hover{
+        text-decoration: none;
+        color: rgb(16, 134, 202);
+    }
+}
+.dropdown-toggle::after {
+    content: none;
+}
+
+.cards{
+    &__heading{
+        margin: 5rem auto;
+    }
+    .card{
+        text-align: center;
+        border: none;
+        &__img{
+            width:200px;
+            margin: 0 auto;
+        }
+        &__title{
+            min-height: auto;
+            vertical-align: middle;
+        }
+        &__price{
+            margin: 10px 0 20px 0;
+        }
+        &__btn{
+            background: rgb(60, 0, 83);
+            color:white;
+        }
+    }
+}
