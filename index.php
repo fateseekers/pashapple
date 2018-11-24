@@ -8,7 +8,6 @@
 </head>
 <body class="page">
     <?php include "header.php" ?>
-    <?php include "slider.php" ?>
     <?php include "goods.php" ?>
     <?php include "footer.php" ?>
 </body>

@@ -72,27 +72,46 @@
   margin: 5rem auto;
 }
 
-.cards .card {
-  text-align: center;
-  border: none;
+.cards__link {
+  text-decoration: none;
+  color: black !important;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
-.cards .card__img {
-  width: 200px;
-  margin: 0 auto;
+.cards__link:hover {
+  text-decoration: none;
+  -webkit-box-shadow: 1px 1px 5px black;
+          box-shadow: 1px 1px 5px black;
 }
 
-.cards .card__title {
-  min-height: auto;
-  vertical-align: middle;
+.cards__block {
+  padding: 20px 0px;
 }
 
-.cards .card__price {
-  margin: 10px 0 20px 0;
+.cards__img {
+  max-width: 200px;
 }
 
-.cards .card__btn {
-  background: #3c0053;
+.cards__discription {
+  margin: 20px 0;
+}
+
+.cards__price {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.cards__button {
+  background: #8207c9;
+  color: white;
+  font-weight: normal;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.cards__button:hover {
+  background: #510080;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */

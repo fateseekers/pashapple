@@ -64,23 +64,36 @@
     &__heading{
         margin: 5rem auto;
     }
-    .card{
-        text-align: center;
-        border: none;
-        &__img{
-            width:200px;
-            margin: 0 auto;
-        }
-        &__title{
-            min-height: auto;
-            vertical-align: middle;
-        }
-        &__price{
-            margin: 10px 0 20px 0;
-        }
-        &__btn{
-            background: rgb(60, 0, 83);
-            color:white;
-        }
+    &__link{
+        text-decoration: none;
+        color: black !important;
+        transition: .2s;
+    }
+    &__link:hover {
+        text-decoration: none;
+        box-shadow: 1px 1px 5px black;
+    }
+    &__block{
+        padding: 20px 0px;
+    }
+    &__img{
+        max-width: 200px;
+    }
+    &__discription{
+        margin: 20px 0;
+    }
+    &__price{
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    &__button{
+        background: rgb(130, 7, 201);
+        color:white;
+        font-weight: normal;
+        transition: .2s;
+    }
+    &__button:hover{
+        background: rgb(81, 0, 128);
+        color:rgb(255, 255, 255);
     }
 }

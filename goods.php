@@ -3,19 +3,17 @@
         <div class="row">
             <h2 class="cards__heading">Топ товары</h2>
         </div>
-        <div class="row d-flex justify-content-around">
+        <div class="row d-flex justify-content-center">
             <!-- Блок в цикл -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 d-flex align-items-top  justify-content-around">
-                <div class="card">
-                    <img class="card-img-top card__img" src="https://img1.exportersindia.com/product_images/bc-full/dir_177/5289071/call-of-duty-ghosts-video-game-1516694008-3601013.jpeg"
-                        alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card__title">iPhone 8 64GB</h5>
-                        <h4 class="card__price">Цена: 1111</h4>
-                        <h2></h2>
-                        <a href="#" class="btn card__btn">Добавить в корзину</a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5 d-flex flex-column align-items-top justify-content-center text-center">
+                <a class="cards__link" href="#">
+                    <div class="cards__block">
+                        <img class="cards__img" src="" alt="">
+                        <h5 class="cards__discription">Apple Iphone 5g</h5>
+                        <h4 class="cards__price">11111</h4>
+                        <input type="button" class="btn cards__button" value="Добавить в корзину">
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
